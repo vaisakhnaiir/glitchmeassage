@@ -1,0 +1,16 @@
+
+
+[]. C:\xampp\htdocs\nodevue\server>git init
+[]. git status
+[].git add .
+[].create new repository in github
+[].git remote add origin 'http:///'
+[].git remote
+[].git remote -v
+[].git push origin master
+[].git push -u origin master
+error: src refspec master does not match any.
+All I had to do was:
+
+git commit -m "initial commit"
+git push origin master
